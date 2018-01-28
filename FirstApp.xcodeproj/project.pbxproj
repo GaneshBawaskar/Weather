@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235892BE201DE90100C4865D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 235892BD201DE90100C4865D /* background.jpg */; };
 		239862AA1FFD33DF001A9671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 239862A91FFD33DF001A9671 /* AppDelegate.m */; };
 		239862AD1FFD33DF001A9671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 239862AC1FFD33DF001A9671 /* main.m */; };
-		239862B01FFD33DF001A9671 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239862AF1FFD33DF001A9671 /* ViewController.m */; };
 		239862B21FFD33DF001A9671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239862B11FFD33DF001A9671 /* Assets.xcassets */; };
 		239862B51FFD33DF001A9671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239862B31FFD33DF001A9671 /* Main.storyboard */; };
 		239862C01FFD33DF001A9671 /* FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239862BF1FFD33DF001A9671 /* FirstAppTests.m */; };
 		239862CB1FFD33DF001A9671 /* FirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239862CA1FFD33DF001A9671 /* FirstAppUITests.m */; };
+		239862E11FFD48AA001A9671 /* NSViewCrrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 239862DF1FFD48AA001A9671 /* NSViewCrrl.m */; };
+		23D692831FFEA3A9005D3491 /* CstmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D692821FFEA3A9005D3491 /* CstmView.m */; };
+		23D6928B1FFEB13B005D3491 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 23D6928A1FFEB13B005D3491 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		239862A51FFD33DF001A9671 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		235892BD201DE90100C4865D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		239862A51FFD33DF001A9671 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239862A81FFD33DF001A9671 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		239862A91FFD33DF001A9671 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		239862AC1FFD33DF001A9671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		239862AE1FFD33DF001A9671 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		239862AF1FFD33DF001A9671 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		239862B11FFD33DF001A9671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239862B41FFD33DF001A9671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		239862B61FFD33DF001A9671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,11 @@
 		239862C61FFD33DF001A9671 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		239862CA1FFD33DF001A9671 /* FirstAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstAppUITests.m; sourceTree = "<group>"; };
 		239862CC1FFD33DF001A9671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239862DE1FFD48AA001A9671 /* NSViewCrrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSViewCrrl.h; sourceTree = "<group>"; };
+		239862DF1FFD48AA001A9671 /* NSViewCrrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSViewCrrl.m; sourceTree = "<group>"; };
+		23D692811FFEA3A9005D3491 /* CstmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CstmView.h; sourceTree = "<group>"; };
+		23D692821FFEA3A9005D3491 /* CstmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CstmView.m; sourceTree = "<group>"; };
+		23D6928A1FFEB13B005D3491 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +96,7 @@
 		239862A61FFD33DF001A9671 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				239862A51FFD33DF001A9671 /* FirstApp.app */,
+				239862A51FFD33DF001A9671 /* Weather.app */,
 				239862BB1FFD33DF001A9671 /* FirstAppTests.xctest */,
 				239862C61FFD33DF001A9671 /* FirstAppUITests.xctest */,
 			);
@@ -101,12 +108,16 @@
 			children = (
 				239862A81FFD33DF001A9671 /* AppDelegate.h */,
 				239862A91FFD33DF001A9671 /* AppDelegate.m */,
-				239862AE1FFD33DF001A9671 /* ViewController.h */,
-				239862AF1FFD33DF001A9671 /* ViewController.m */,
+				235892BD201DE90100C4865D /* background.jpg */,
+				23D6928A1FFEB13B005D3491 /* icon.icns */,
 				239862B11FFD33DF001A9671 /* Assets.xcassets */,
 				239862B31FFD33DF001A9671 /* Main.storyboard */,
 				239862B61FFD33DF001A9671 /* Info.plist */,
 				239862AB1FFD33DF001A9671 /* Supporting Files */,
+				239862DE1FFD48AA001A9671 /* NSViewCrrl.h */,
+				239862DF1FFD48AA001A9671 /* NSViewCrrl.m */,
+				23D692811FFEA3A9005D3491 /* CstmView.h */,
+				23D692821FFEA3A9005D3491 /* CstmView.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -154,7 +165,7 @@
 			);
 			name = FirstApp;
 			productName = FirstApp;
-			productReference = 239862A51FFD33DF001A9671 /* FirstApp.app */;
+			productReference = 239862A51FFD33DF001A9671 /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 		239862BA1FFD33DF001A9671 /* FirstAppTests */ = {
@@ -241,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				239862B21FFD33DF001A9671 /* Assets.xcassets in Resources */,
+				23D6928B1FFEB13B005D3491 /* icon.icns in Resources */,
 				239862B51FFD33DF001A9671 /* Main.storyboard in Resources */,
+				235892BE201DE90100C4865D /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239862B01FFD33DF001A9671 /* ViewController.m in Sources */,
 				239862AD1FFD33DF001A9671 /* main.m in Sources */,
+				23D692831FFEA3A9005D3491 /* CstmView.m in Sources */,
+				239862E11FFD48AA001A9671 /* NSViewCrrl.m in Sources */,
 				239862AA1FFD33DF001A9671 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,11 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.FirstApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Weather;
 			};
 			name = Debug;
 		};
@@ -412,11 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.FirstApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Weather;
 			};
 			name = Release;
 		};
@@ -489,6 +505,7 @@
 				239862D11FFD33DF001A9671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239862D21FFD33DF001A9671 /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +514,7 @@
 				239862D41FFD33DF001A9671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239862D51FFD33DF001A9671 /* Build configuration list for PBXNativeTarget "FirstAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +523,7 @@
 				239862D71FFD33DF001A9671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

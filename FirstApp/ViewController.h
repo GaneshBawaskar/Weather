@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "NSViewCrrl.h"
 @interface ViewController : NSViewController
+{
 
+}
 
 @end
 
